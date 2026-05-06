@@ -45,7 +45,7 @@ switch(myDay){
 
 console.log(coffee);
 
-alert(today);
+alert(coffeeTemplate(coffee));
 
 
 function coffeeTemplate(coffee){
