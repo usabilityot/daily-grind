@@ -93,7 +93,7 @@ switch(myDay){
             name: "Mocha",
             pic: "mocha.jpg",
             alt: "A pic of a Mocha coffee",
-            color: "cream",
+            color: "red",
             day: "Thursday",
             desc: `I need a mocha, Can I get that with almond syrup?`
         };
@@ -105,7 +105,7 @@ switch(myDay){
             name: "Pumpkin Spice Latte",
             pic: "pumpkin-spice-latte.jpg",
             alt: "A pic of a pumpkin spice latte",
-            color: "yellow",
+            color: "blue",
             day: "Friday",
             desc: `I need a pumpkin spice latte can I have that with whip?`
         };
