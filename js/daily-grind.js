@@ -38,6 +38,19 @@ switch(myDay){
         };
  	break;
 
+
+    case 6:
+   	    today = "Saturday";
+        coffee = {
+            name: "Drip",
+            pic: "drip.jpg",
+            alt: "A pic of a drip coffee",
+            color: "brown",
+            day: "Saturday",
+            desc: `I need a constant drip!`
+        };
+ 	break;
+
  	default:
     	today = "Something went wrong!";
 
