@@ -44,6 +44,18 @@ switch(myDay){
     	today =  "Sunday";
  	break;
 
+    case 1:
+   	    today = "Saturday";
+        coffee = {
+            name: "Drip",
+            pic: "drip.jpg",
+            alt: "A pic of a drip coffee",
+            color: "brown",
+            day: "Saturday",
+            desc: `I need a constant drip!`
+        };
+ 	break;
+
  	case 2:
    	    today = "Tuesday";
         coffee = {
@@ -53,6 +65,42 @@ switch(myDay){
             color: "pink",
             day: "Tuesday",
             desc: `I like me some Bubble Tea!`
+        };
+ 	break;
+
+    case 3:
+   	    today = "Saturday";
+        coffee = {
+            name: "Drip",
+            pic: "drip.jpg",
+            alt: "A pic of a drip coffee",
+            color: "brown",
+            day: "Saturday",
+            desc: `I need a constant drip!`
+        };
+ 	break;
+
+    case 4:
+   	    today = "Saturday";
+        coffee = {
+            name: "Drip",
+            pic: "drip.jpg",
+            alt: "A pic of a drip coffee",
+            color: "brown",
+            day: "Saturday",
+            desc: `I need a constant drip!`
+        };
+ 	break;
+
+    case 5:
+   	    today = "Saturday";
+        coffee = {
+            name: "Drip",
+            pic: "drip.jpg",
+            alt: "A pic of a drip coffee",
+            color: "brown",
+            day: "Saturday",
+            desc: `I need a constant drip!`
         };
  	break;
 
