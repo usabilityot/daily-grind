@@ -40,19 +40,27 @@ myDay = parseInt(myDay);
 
 switch(myDay){
 
- 	case 0:
-    	today =  "Sunday";
+    case 0:
+   	    today = "Sunday";
+        coffee = {
+            name: "Caramel Latte",
+            pic: "caramel-latte.jpg",
+            alt: "A pic of a caramel latte coffee",
+            color: "orange",
+            day: "Sunday",
+            desc: `I want some dark chocolate to go with my caramel latte!`
+        };
  	break;
 
     case 1:
-   	    today = "Saturday";
+   	    today = "Monday";
         coffee = {
-            name: "Drip",
-            pic: "drip.jpg",
-            alt: "A pic of a drip coffee",
-            color: "brown",
-            day: "Saturday",
-            desc: `I need a constant drip!`
+            name: "Cold Brew",
+            pic: "cold-brew.jpg",
+            alt: "A pic of a cold brew coffee",
+            color: "black",
+            day: "Monday",
+            desc: `I need a cold brew to wake up from the weekend!`
         };
  	break;
 
@@ -69,38 +77,38 @@ switch(myDay){
  	break;
 
     case 3:
-   	    today = "Saturday";
+   	    today = "Wednesday";
         coffee = {
-            name: "Drip",
-            pic: "drip.jpg",
-            alt: "A pic of a drip coffee",
-            color: "brown",
-            day: "Saturday",
-            desc: `I need a constant drip!`
+            name: "Frappaccino",
+            pic: "frappaccino.jpg",
+            alt: "A pic of a frappaccino coffee",
+            color: "green",
+            day: "Wednesday",
+            desc: `I need a frappaccino coffee to wake me up and cool me down!`
         };
  	break;
 
     case 4:
-   	    today = "Saturday";
+   	    today = "Thursday";
         coffee = {
-            name: "Drip",
-            pic: "drip.jpg",
-            alt: "A pic of a drip coffee",
-            color: "brown",
-            day: "Saturday",
-            desc: `I need a constant drip!`
+            name: "Mocha",
+            pic: "mocha.jpg",
+            alt: "A pic of a Mocha coffee",
+            color: "cream",
+            day: "Thursday",
+            desc: `I need a mocha, Can I get that with almond syrup?`
         };
  	break;
 
     case 5:
-   	    today = "Saturday";
+   	    today = "Friday";
         coffee = {
-            name: "Drip",
-            pic: "drip.jpg",
-            alt: "A pic of a drip coffee",
-            color: "brown",
-            day: "Saturday",
-            desc: `I need a constant drip!`
+            name: "Pumpkin Spice Latte",
+            pic: "pumpkin-spice-latte.jpg",
+            alt: "A pic of a pumpkin spice latte",
+            color: "yellow",
+            day: "Friday",
+            desc: `I need a pumpkin spice latte can I have that with whip?`
         };
  	break;
 
