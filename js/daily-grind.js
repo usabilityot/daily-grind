@@ -19,6 +19,7 @@
 let myDate = new Date();
 let myDay = myDate.getDay();
 let today = ""
+let coffee;
 
 //use location object to access querystring (address bar)
 const queryString = window.location.search;
@@ -33,8 +34,6 @@ const urlParams = new URLSearchParams(queryString);
 if(urlParams.has("day")){
     myDay = urlParams.get("day");
 }
-
-myDay = urlParams.get("day");
 
 myDay = parseInt(myDay);
 
