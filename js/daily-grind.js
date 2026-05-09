@@ -29,6 +29,12 @@ console.log(queryString);
 //separate query string parameters
 const urlParams = new URLSearchParams(queryString);
 
+//retreive data from query string
+if(urlParams.has("day")){
+    myDay = urlParams.get("day");
+}
+
+myDay = urlParams.get("day");
 
 switch(myDay){
 
