@@ -18,7 +18,7 @@
 
 let myDate = new Date();
 let myDay = myDate.getDay();
-let today = ""
+let today = "";
 let coffee;
 
 //use location object to access querystring (address bar)
