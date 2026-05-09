@@ -36,6 +36,8 @@ if(urlParams.has("day")){
 
 myDay = urlParams.get("day");
 
+myDay = parseInt(myDay);
+
 switch(myDay){
 
  	case 0:
