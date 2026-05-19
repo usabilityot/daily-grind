@@ -140,6 +140,8 @@ document.querySelectorAll("#coffee-cup strong").forEach(el => {
     el.style.color = coffee.color;
 });
 
+document.documentElement.style.backgroundColor = coffee.color;
+
 
 function coffeeTemplate(coffee){
     let myReturn = "";
